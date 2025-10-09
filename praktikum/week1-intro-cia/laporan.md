@@ -1,77 +1,72 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
+Minggu ke-: 1  
+Topik: Sejarah Kriptografi & Prinsip CIA  
 Nama: Vera Indryawanti  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+NIM: 230202791  
+Kelas: 5IKRB 
 
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+- Menjelaskan sejarah dan evolusi kriptografi dari masa klasik hingga modern.
+- Menyebutkan prinsip Confidentiality, Integrity, Availability (CIA) dengan benar.
+- Menyimpulkan peran kriptografi dalam sistem keamanan informasi modern.
+- Menyiapkan repositori GitHub sebagai media kerja praktikum.
 
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+Kriptografi adalah ilmu dan seni untuk menjaga keamanan pesan. Sejarahnya terbagi menjadi era klasik dan modern. Kriptografi klasik, seperti Caesar Cipher dan Vigenère Cipher, beroperasi pada level karakter (huruf) dan sering kali mengandalkan kerahasiaan metode penyandiannya. Seiring berkembangnya teknologi komputasi, kriptografi modern lahir dengan basis matematika yang kuat. Keamanannya tidak lagi bergantung pada kerahasiaan algoritma, melainkan pada kerahasiaan kunci, sebuah prinsip yang dikenal sebagai Prinsip Kerckhoffs. Algoritma modern seperti AES (simetris) dan RSA (asimetris) menjadi fondasi keamanan digital saat ini.
+
+Dalam keamanan informasi, tiga pilar utama dikenal sebagai CIA Triad: Confidentiality (kerahasiaan data dari akses tidak sah), Integrity (keutuhan data dari perubahan tidak sah), dan Availability (ketersediaan data saat dibutuhkan oleh pengguna yang sah). Kriptografi memainkan peran vital dalam menegakkan prinsip-prinsip ini, terutama kerahasiaan dan integritas.
 
 ---
 
 ## 3. Alat dan Bahan
-(- Python 3.x  
-- Visual Studio Code / editor lain  
-- Git dan akun GitHub  
-- Library tambahan (misalnya pycryptodome, jika diperlukan)  )
+- Leptop/Komputer
+- Visual Studio Code
+- Akun GitHub yang aktif
 
 ---
 
 ## 4. Langkah Percobaan
-(Tuliskan langkah yang dilakukan sesuai instruksi.  
-Contoh format:
-1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
-2. Menyalin kode program dari panduan praktikum.
-3. Menjalankan program dengan perintah `python caesar_cipher.py`.)
+- Melakukan fork. 
+- Mengubah nama repositori hasil fork.
+- Melakukan clone repositori yang sudah diubah namanya ke komputer lokal.
+- Membuat struktur folder baru di dalam repositori lokal.
+- Di dalam folder tersebut, dibuat file `laporan.md` dan sebuah folder `screenshots/`.
+- Menulis ringkasan mengenai sejarah kriptografi dan prinsip CIA di dalam file `laporan.md`.
+- Menjawab pertanyaan quiz yang diberikan di dalam file `laporan.md`.
+- Mengambil screenshot sebagai bukti penyiapan repositori dan menyimpannya di folder `screenshots/`.
+- Menambahkan (add), melakukan commit (commit), dan mengirim (push) perubahan ke repositori GitHub dengan pesan commit `week1-intro-cia`.
 
 ---
 
 ## 5. Source Code
-(Salin kode program utama yang dibuat atau dimodifikasi.  
-Gunakan blok kode:
-
-```python
-# contoh potongan kode
-def encrypt(text, key):
-    return ...
-```
-)
+Pada praktikum minggu ini tidak ada pembuatan atau modifikasi source code program. Kegiatan berfokus pada penyiapan lingkungan kerja dan penyusunan laporan.
 
 ---
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
+Praktikum ini berhasil dilaksanakan dengan penyiapan repositori GitHub sebagai lingkungan kerja dan penyusunan laporan awal. Repositori berhasil di-fork, di-clone, dan disesuaikan strukturnya. Laporan yang berisi ringkasan materi dan jawaban quiz berhasil dibuat sesuai panduan.
 
-Hasil eksekusi program Caesar Cipher:
-
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
-)
+Berikut adalah bukti screenshot dari penyiapan repositori:
 
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
+1. Siapa tokoh yang dianggap sebagai bapak kriptografi modern?
+Claude Shannon. Melalui karyanya "Communication Theory of Secrecy Systems" (1949), ia meletakkan dasar matematis yang menjadi fondasi kriptografi modern.
+
+2. Sebutkan algoritma kunci publik yang populer digunakan saat ini.
+RSA (Rivest-Shamir-Adleman) dan ECC (Elliptic Curve Cryptography).
+
+3. Apa perbedaan utama antara kriptografi klasik dan kriptografi modern?
+Perbedaan utamanya terletak pada basis operasi dan prinsip keamanan. Kriptografi klasik berbasis linguistik (memanipulasi huruf) dan sering mengandalkan kerahasiaan algoritma. Sebaliknya, kriptografi modern berbasis matematika (memanipulasi bit) dan keamanannya bergantung penuh pada kerahasiaan kunci, bukan algoritma.
 ---
 
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
+Praktikum ini berhasil memberikan pemahaman dasar mengenai evolusi kriptografi dari era klasik hingga kontemporer serta pengenalan prinsip fundamental keamanan informasi (CIA Triad). Selain itu, lingkungan kerja praktikum menggunakan Git dan GitHub telah berhasil disiapkan untuk mendukung kegiatan praktikum selanjutnya.
 
 ---
 

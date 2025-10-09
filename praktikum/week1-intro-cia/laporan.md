@@ -51,6 +51,8 @@ Pada praktikum minggu ini tidak ada pembuatan atau modifikasi source code progra
 Praktikum ini berhasil dilaksanakan dengan penyiapan repositori GitHub sebagai lingkungan kerja dan penyusunan laporan awal. Repositori berhasil di-fork, di-clone, dan disesuaikan strukturnya. Laporan yang berisi ringkasan materi dan jawaban quiz berhasil dibuat sesuai panduan.
 
 Berikut adalah bukti screenshot dari penyiapan repositori:
+![repo setup](/praktikum/week1-intro-cia/Screenshot/repo_setup.png)
+![initial commit](/praktikum/week1-intro-cia/Screenshot/initial_commit.png)
 
 ---
 

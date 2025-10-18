@@ -1,5 +1,5 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: 3 
+Minggu ke-: 3   
 Topik: Modular Math (Aritmetika Modular, GCD, Bilangan Prima, Logaritma Diskrit)  
 Nama: Vera Indryawanti  
 NIM: 230202791  

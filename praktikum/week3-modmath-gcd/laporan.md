@@ -114,7 +114,7 @@ Praktikum ini berhasil mengimplementasikan operasi dasar number theory yang menj
 
 ## 10. Commit Log
 ```
-commit abc12345
+commit 115cdc08f71f6d28dfa22086b4117f3ee3548a9c
 Author: Vera Indryawanti <indryawantivera@gmail.com>
 Date:   2025-10-18
 

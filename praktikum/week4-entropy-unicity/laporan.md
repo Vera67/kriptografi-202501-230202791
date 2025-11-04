@@ -17,7 +17,7 @@ Kelas: 5IKRB
 ---
 
 ## 2. Dasar Teori
-Entropi itu cara mengukur seberapa acak atau seberapa tidak terduga sebuah kunci. Gampangnya, entropi ($H(K)$) mengukur seberapa besar "ruang kunci" (jumlah semua kemungkinan kunci). Rumusnya $H(K) = \log_2 |K|$. Makin besar angkanya (makin tinggi entropinya), kuncinya makin kuat dan makin susah ditebak.Unicity Distance ($U$) adalah panjang ciphertext (pesan rahasia) paling pendek yang kita butuhkan supaya bisa menemukan kunci yang benar. Kalau ciphertext-nya lebih pendek dari $U$, kita mungkin dapat banyak kunci palsu yang kelihatan benar. Kalau ciphertext kita lebih panjang dari $U$, kita hampir pasti bisa menemukan satu kunci yang benar.Serangan Brute Force adalah serangan "coba-coba". Penyerang akan mencoba semua kemungkinan kunci satu per satu sampai ketemu yang benar dan pesannya bisa dibaca.
+Entropi itu cara mengukur seberapa acak atau seberapa tidak terduga sebuah kunci. Gampangnya, entropi (H(K)) mengukur seberapa besar "ruang kunci" (jumlah semua kemungkinan kunci). Rumusnya $H(K) = \log_2 |K|$. Makin besar angkanya (makin tinggi entropinya), kuncinya makin kuat dan makin susah ditebak.Unicity Distance ($U$) adalah panjang ciphertext (pesan rahasia) paling pendek yang kita butuhkan supaya bisa menemukan kunci yang benar. Kalau ciphertext-nya lebih pendek dari $U$, kita mungkin dapat banyak kunci palsu yang kelihatan benar. Kalau ciphertext kita lebih panjang dari $U$, kita hampir pasti bisa menemukan satu kunci yang benar.Serangan Brute Force adalah serangan "coba-coba". Penyerang akan mencoba semua kemungkinan kunci satu per satu sampai ketemu yang benar dan pesannya bisa dibaca.
 
 ---
 
@@ -42,6 +42,7 @@ Entropi itu cara mengukur seberapa acak atau seberapa tidak terduga sebuah kunci
 ---
 
 ## 5. Source Code
+```python
 #Perhitungan Entropi
 import math
 
@@ -66,15 +67,14 @@ def brute_force_time(keyspace_size, attempts_per_second=1e6):
 
 print("Waktu brute force Caesar Cipher (26 kunci) =", brute_force_time(26), "hari")
 print("Waktu brute force AES-128 =", brute_force_time(2**128), "hari")
-
+```
 ---
 
 ## 6. Hasil dan Pembahasan  
 Hasil eksekusi program :
 
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
+![Hasil Eksekusi](/praktikum/week4-entropy-unicity/Screenshots/Hasil.png)
+
 
 
 ---
@@ -92,7 +92,7 @@ Brute force masih bahaya karena:
 ---
 
 ## 8. Kesimpulan
-Dari praktikum ini, kita belajar kalau kekuatan kunci bisa diukur pakai entropi. Caesar Cipher sangat lemah (entropi $\approx 4.7$ bit, unicity distance $\approx 2.67$) dan bisa dibobol instan. AES-128 sangat kuat (entropi 128 bit) dan tidak mungkin di-brute force dengan teknologi sekarang.
+Dari praktikum ini, kita belajar kalau kekuatan kunci bisa diukur pakai entropi. Caesar Cipher sangat lemah (entropi 4.7$ bit, unicity distance 2.67$) dan bisa dibobol instan. AES-128 sangat kuat (entropi 128 bit) dan tidak mungkin di-brute force dengan teknologi sekarang.
 
 ---
 
@@ -107,7 +107,7 @@ Contoh:
 ```
 commit abc12345
 Author: Vera Indryawanti <indryawantivera@gmail.com>
-Date:   2025-10-04
+Date:   2025-11-04
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
+    week4-Entropy & Unicity Distance (Evaluasi Kekuatan Kunci dan Brute Force) )
 ```

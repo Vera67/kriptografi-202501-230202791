@@ -92,7 +92,7 @@ Brute force masih bahaya karena:
 ---
 
 ## 8. Kesimpulan
-Dari praktikum ini, kita belajar kalau kekuatan kunci bisa diukur pakai entropi. Caesar Cipher sangat lemah (entropi 4.7$ bit, unicity distance 2.67$) dan bisa dibobol instan. AES-128 sangat kuat (entropi 128 bit) dan tidak mungkin di-brute force dengan teknologi sekarang.
+Dari praktikum ini, kita belajar kalau kekuatan kunci bisa diukur pakai entropi. Caesar Cipher sangat lemah (entropi 4.7 bit, unicity distance 2.67) dan bisa dibobol instan. AES-128 sangat kuat (entropi 128 bit) dan tidak mungkin di-brute force dengan teknologi sekarang.
 
 ---
 

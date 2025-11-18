@@ -30,10 +30,10 @@ Cipher modern merupakan algoritma kriptografi yang digunakan saat ini, mengganti
 
 ## 4. Langkah Percobaan
 1. Membuat struktur direktori proyek sesuai panduan:  
-`praktikum/week6-cipher-modern/`
-`├─ src/`
-`├─ screenshots/`
-`└─ laporan.md`
+`praktikum/week6-cipher-modern/`  
+`├─ src/`  
+`├─ screenshots/`  
+`└─ laporan.md`  
 2. Melakukan instalasi library `pycryptodome` yang diperlukan menggunakan perintah pip install `pycryptodome`.  
 3. Membuat file `src/des.py` (opsional) untuk simulasi enkripsi/dekripsi DES mode ECB.  
 4. Membuat file `src/aes.py` untuk implementasi enkripsi/dekripsi AES-128 menggunakan mode EAX.  

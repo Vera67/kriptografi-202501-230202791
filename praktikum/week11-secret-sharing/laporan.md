@@ -1,37 +1,38 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Minggu ke-: 11  
+Topik: Secret Sharing (Shamir’s Secret Sharing)    
+Nama: Vera Indryawanti  
+NIM: 230202791  
+Kelas: 5IKRB  
 
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+1. Menjelaskan konsep **Shamir Secret Sharing** (SSS).  
+2. Melakukan simulasi pembagian rahasia ke beberapa pihak menggunakan skema SSS.  
+3. Menganalisis keamanan skema distribusi rahasia.  
 
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+Shamir's Secret Sharing (SSS) adalah algoritma kriptografi yang dibuat oleh Adi Shamir. Konsep utamanya adalah membagi sebuah "rahasia" (secret) menjadi beberapa bagian unik yang disebut shares. Rahasia tersebut hanya dapat direkonstruksi jika sejumlah minimum shares (disebut threshold atau k) digabungkan kembali. Jika jumlah shares kurang dari k, maka tidak ada informasi apa pun tentang rahasia yang bisa didapatkan.Secara matematis, SSS didasarkan pada interpolasi polinomial Lagrange. Sebuah rahasia S disembunyikan sebagai koefisien konstanta a_0 dalam sebuah polinomial derajat k-1:f(x) = a_0 + a_1x + a_2x^2 + ... + a_{k-1}x^{k-1} (mod p). Di mana p adalah bilangan prima yang lebih besar dari rahasia dan jumlah partisipan (n). Setiap partisipan diberikan pasangan titik (x, f(x)). Untuk merekonstruksi polinomial dan menemukan $a_0$, diperlukan minimal k titik.Keamanan skema ini bersifat information-theoretic secure, artinya musuh yang memiliki daya komputasi tak terbatas pun tidak dapat memecahkan rahasia jika mereka memiliki kurang dari k bagian share.  
 
 ---
 
 ## 3. Alat dan Bahan
-(- Python 3.x  
+- Python   
 - Visual Studio Code / editor lain  
-- Git dan akun GitHub  
-- Library tambahan (misalnya pycryptodome, jika diperlukan)  )
+- Git dan akun GitHub   
 
 ---
 
 ## 4. Langkah Percobaan
-(Tuliskan langkah yang dilakukan sesuai instruksi.  
-Contoh format:
-1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
-2. Menyalin kode program dari panduan praktikum.
-3. Menjalankan program dengan perintah `python caesar_cipher.py`.)
+1. Membuat struktur folder `praktikum/week11-secret-sharing/src/` dan `screenshots/`.
+2. Menginstall library yang diperlukan dengan menjalankan perintah di terminal: `pip install secretsharing`.
+3. Membuat file bernama `secret_sharing.py` di dalam folder `src/`.
+4. Menulis kode program untuk membagi rahasia (splitting) dan menggabungkan kembali (recovering) menggunakan library `secretsharing` sesuai panduan modul.
+5. Menjalankan program dengan perintah: `python src/secret_sharing.py`
+6. Mengambil screenshot hasil output terminal untuk dokumentasi.
 
 ---
 

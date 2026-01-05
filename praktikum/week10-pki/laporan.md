@@ -32,11 +32,21 @@ Dalam komunikasi aman seperti HTTPS, sertifikat digital berfungsi untuk memverif
 ---
 
 ## 4. Langkah Percobaan
-(Tuliskan langkah yang dilakukan sesuai instruksi.  
-Contoh format:
-1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
-2. Menyalin kode program dari panduan praktikum.
-3. Menjalankan program dengan perintah `python caesar_cipher.py`.)
+1. Membuat struktur folder repositori praktikum sebagai berikut:  
+`praktikum/week10-pki/`  
+`├─ src/`  
+`├─ screenshots/`  
+`└─ laporan.md`  
+2. Membuka terminal dan menginstal library yang dibutuhkan dengan perintah:  
+`Bash`  
+`pip install cryptography`  
+3. Membuat file baru bernama `pki_cert.py` di dalam folder `src/`.  
+4. Menyalin kode program pembuatan sertifikat digital (Self-Signed Certificate) dari panduan praktikum ke dalam file `pki_cert.py`.  
+5. Menjalankan program melalui terminal dengan perintah:
+`Bash`  
+`python src/pki_cert.py`  
+6. Memeriksa apakah file `cert.pem` berhasil dibuat di direktori kerja.  
+7. Menganalisis hasil output dan mendokumentasikannya.
 
 ---
 
